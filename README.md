@@ -1,5 +1,5 @@
  ## GENOME ASSEMBLY PROGRAMMING CHALLENGE <br />
- - Each folder has a README.md file to show the outputs of codes <br />
+ - **Each folder has a README file** <br />
  - <a href="https://github.com/jarvis004/NGS_Assignment/blob/master/presentation.pdf" target="_blank">Presentation</a> <br />
   
   **Group members** : <br />
