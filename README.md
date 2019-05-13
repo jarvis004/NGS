@@ -5,8 +5,8 @@
  - <a href="https://github.com/jarvis004/NGS_Assignment/blob/master/Assignment_1/Q1/output.txt" target="_blank">Assembeled Genome Sequence </a> <br />
  
  - <a href="https://github.com/jarvis004/NGS_Assignment/blob/master/Assignment_1/Q1/alignment.txt" target="_blank">Alignment with Original Genome </a> <br />
-     - Identity 77.9%
- - Optimal k-mer size for input of 33609 reads of length 100 : 67
+     - Identity **77.9%**
+ - Optimal k-mer size for input of 33609 reads of length 100 : **67**
 
   
   **Group members** : <br />
