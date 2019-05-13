@@ -5,6 +5,7 @@
  - <a href="https://github.com/jarvis004/NGS_Assignment/blob/master/Assignment_1/Q1/output.txt" target="_blank">Assembeled Genome Sequence </a> <br />
  
  - <a href="https://github.com/jarvis004/NGS_Assignment/blob/master/Assignment_1/Q1/alignment.txt" target="_blank">Alignment with Original Genome </a> <br />
+     - Identity Score 77.9%
 
   
   **Group members** : <br />
