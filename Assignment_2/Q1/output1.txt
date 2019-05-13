@@ -1,0 +1,5 @@
+(black,black,c,a);(black,a,k,e);(black,e,d,a);(black,a,l,r);(black,r,r,black)
+(c,black,a,a);(k,a,c,c);(d,c,a,g);(l,g,c,a);(r,a,d,black)
+(a,black,f,l);(c,l,g,i);(a,i,h,f);(c,f,i,r);(d,r,k,black)
+(f,black,l,r);(g,r,k,d);(h,d,g,a);(i,a,f,g);(k,g,h,black)
+(l,black,black,d);(k,d,black,c);(g,c,black,a);(f,a,black,g);(h,g,black,black)
