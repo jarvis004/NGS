@@ -1,4 +1,4 @@
-**How to Compile :** g++ q1.cpp -std=gnu++11
+**How to Compile :** g++ q1.cpp -std=gnu++11 <br />
 **How to run :** ./a.out
 **Input Files for 3*3 grid :** input.txt 
 **Output File for 3*3 grid :** output.txt
