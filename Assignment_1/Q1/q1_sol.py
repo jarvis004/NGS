@@ -39,7 +39,6 @@ class PrefixTrie(object):
 			if length >= DEFAULT_MIN_OVERLAP_LENGTH and node.indexes:
 				for index in node.indexes:
 					adjacent.append((index, length))
-		#print(adjacent)
 		return adjacent
 
 def stringsOverlapValue(s,t):
@@ -56,7 +55,6 @@ def generateOverlapGraph(reads):
 		adj[i] = prefixTrie.match(read)
 	for l in adj:
 		l.sort(key=lambda x: x[1], reverse=True)
-	#print(adj)
 	return adj 
 
 def buildLongestHamiltonianPath(adj):
@@ -70,7 +68,6 @@ def buildLongestHamiltonianPath(adj):
 				current = link[0]
 				path.append(link)
 				break
-	#print (path)
 	return path
 
 def assemble(path, reads):
@@ -80,20 +77,10 @@ def assemble(path, reads):
 	genome = genome[:-stringsOverlapValue(reads[path[-1][0]], reads[0])]
 	return genome
 
-#reads = []
-#for i in range(DEFAULT_READS_NUMBER):
-#	reads.append(input())
-#	print("appended")
-
-#print("1")
 reads = list(set(reads))
-#print("2")
 adj = generateOverlapGraph(reads)
-#print("3")
 path = buildLongestHamiltonianPath(adj)
-#print("4")
 genome = assemble(path, reads)
-#print("5")
 f = open('output.txt', 'w')
 f.write(genome)
 f.close()
